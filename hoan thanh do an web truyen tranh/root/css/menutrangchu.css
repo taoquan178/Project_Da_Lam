@@ -1,0 +1,118 @@
+/* .menu {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(10, 52, 84, 0.44);
+} */
+.menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eac65f;
+}
+
+.anh{
+    display: flex;
+    justify-content: center;
+}
+.anh1 img{
+    margin-top: 10px;
+    width: 1000px;
+    height: 400px;
+}
+
+.gioithieutruyen{
+    height: 230px;
+    padding: 20px 150px;
+    width: 800px;
+    margin: 10px auto;
+    background-color: rgb(10, 52, 84, 0.44);
+}
+.ketthuctruyen{
+    color: white;
+    height: 160px;
+    padding: 20px 150px;
+    width: 800px;
+    margin: 10px auto;
+    background-color: rgb(10, 52, 84, 0.44); 
+}
+.tren ul li{
+    display: inline-block;
+    padding: 2px;
+    color: white;
+
+}
+.tren ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.ketthuctruyen a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.up1{
+    float: right;
+    display: flex;
+}
+.duoi{
+    float: right;
+    display: flex;
+}
+
+/* body{
+	background: url("image/104.jpg");
+	background-size: cover;
+	} */
+.content{
+    width: 700px;
+	margin: 10px auto;
+    padding: 20px 150px;
+	display: grid;
+	grid-template-columns: 160px 160px 160px 160px;
+	/* grid-template-rows: 300px 300px 300px 300px; */
+	grid-gap: 25px;
+    background-color: rgb(10, 52, 84, 0.44);
+    }
+.item img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+.truyensapramat{
+    width: 800px;
+	margin: 10px auto;
+    padding: 20px 100px;
+	display: grid;
+	grid-template-columns: 160px 160px 160px 160px 160px;
+	grid-gap: 10px;
+    background-color: rgb(10, 52, 84, 0.44);
+}
+
+.truyensapramat2{
+    background-color: rgb(10, 52, 84, 0.44);
+    height: 40px;
+    font-size: 22px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.truyensapramat2 p {
+    color:white;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%,
+     rgba(42,77,166,1) 0%, rgba(63,9,121,0.6786064767703957) 30%, rgba(2,0,36,1) 100%);
+    font-family:Brush Script MT;
+    padding: 7px;
+}
+h3{
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+.content a{
+    text-decoration: none;
+}
